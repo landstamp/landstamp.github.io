@@ -1,0 +1,100 @@
+html, body { 
+    height: 100%;
+       margin:0;
+       padding:0;
+    
+   }
+
+
+   body {
+    background-color: #87947f;
+    /* NAME | DURATION | FUNCTION | DELAY | REPEAT */
+    animation: morph 10s linear 1s infinite;
+   }
+
+.flex-cont {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+h1 {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 4em;
+    padding:0;
+    margin:0;
+    color: #f1f1f1;
+}
+
+.flex-item p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.3em;
+    color:#f1f1f1;
+    padding: 0 50px 0px 50px;
+}
+
+a {
+    color:#f1f1f1;
+}
+
+a:hover {
+    color:#e8b41c;
+    transition-duration: 1.5s;
+
+}
+
+@keyframes morph {
+    0% { background-color:#87947f; }
+    10%{ background-color:#7f948c; }
+    20%{ background-color:#887f94; }
+    30%{ background-color:#947f93; }
+    40%{ background-color:#947f86; }
+    50%{ background-color:#947f7f; }
+    60%{ background-color:#8e7f94; }
+    70%{ background-color:#837f94; }
+    80%{ background-color:#7f8d94; }
+    90%{ background-color:#87947f; }
+    100%{background-color:#87947f; }
+  }
+  
+
+@media only screen and (max-width: 500px)
+
+{h1
+     {
+         font-size: 3.2em;
+         
+         
+        }
+}   
+
+
+#logo {
+    max-width: 220px;
+}
+
+
+@media only screen
+
+  and (min-device-width: 375px)
+
+  and (max-device-width: 667px)
+
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
+
+
+
+/*
+font-family: 'Merriweather', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+*/
