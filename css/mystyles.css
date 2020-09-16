@@ -7,9 +7,8 @@ html, body {
 
 
    body {
-    background-color: #87947f;
-    /* NAME | DURATION | FUNCTION | DELAY | REPEAT */
-    animation: morph 10s linear 1s infinite;
+    background-color: #00e7ff14;
+    
    }
 
 .flex-cont {
@@ -20,47 +19,53 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
+    
 }
 
 h1 {
-    font-family: 'Reenie Beanie', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 4em;
     padding:0;
     margin:0;
-    color: #f1f1f1;
+    color: black;
 }
 
-.flex-item p {
-    font-family: 'Roboto Condensed', sans-serif;
+.flex-item  {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
-    color:#f1f1f1;
+    color:black;
     padding: 0 50px 0px 50px;
+    width: 50%;
+    
 }
 
 a {
-    color:#f1f1f1;
+    color:black;
+    text-decoration:none;
 }
 
-a:hover {
+.contact {
+    text-align:center;
+}
+
+.button {
+    border: 1px solid black;
+    width:100px;
+    height;auto;
+    padding:5px 20px 5px 20px
+}
+
+a.button:hover{
     color:#e8b41c;
     transition-duration: 1.5s;
-
 }
 
-@keyframes morph {
-    0% { background-color:#87947f; }
-    10%{ background-color:#7f948c; }
-    20%{ background-color:#887f94; }
-    30%{ background-color:#947f93; }
-    40%{ background-color:#947f86; }
-    50%{ background-color:#947f7f; }
-    60%{ background-color:#8e7f94; }
-    70%{ background-color:#837f94; }
-    80%{ background-color:#7f8d94; }
-    90%{ background-color:#87947f; }
-    100%{background-color:#87947f; }
-  }
-  
+#intro {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
 
 @media only screen and (max-width: 500px)
 
@@ -70,11 +75,22 @@ a:hover {
          
          
         }
+
+        .flex-item {
+            width: auto !important;
+            max-width:320px;
+            padding; 0px 10px 0px 10px;
+        }
+
+        p{
+            font-size:16px;
+            line-height:1.5em;
+        }
 }   
 
 
 #logo {
-    max-width: 220px;
+    max-width: 100%;
 }
 
 
