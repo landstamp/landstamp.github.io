@@ -7,7 +7,7 @@ html, body {
 
 
    body {
-    background-color: #00e7ff14;
+    background-color:hotpink;
     
    }
 
@@ -51,7 +51,7 @@ a {
 .button {
     border: 1px solid black;
     width:100px;
-    height;auto;
+    height:auto;
     padding:10px 30px 10px 30px;
     
 }
