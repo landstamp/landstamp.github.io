@@ -52,12 +52,14 @@ a {
     border: 1px solid black;
     width:100px;
     height;auto;
-    padding:5px 20px 5px 20px
+    padding:10px 30px 10px 30px;
+    
 }
 
-a.button:hover{
-    color:#e8b41c;
+.button:hover{
+    background:#e8b41c;
     transition-duration: 1.5s;
+ 
 }
 
 #intro {
