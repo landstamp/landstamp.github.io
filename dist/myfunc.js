@@ -1,4 +1,4 @@
-function smoothScroll (target,duration){
+/*function smoothScroll (target,duration){
     var target = document.querySelector(target);
     var targetPosition = target.getBoundingClientRect().top;
     var startPosition = window.pageYOffset;
@@ -28,7 +28,6 @@ function smoothScroll (target,duration){
 
 
 
-
 var arrow1 = document.querySelector('#arrow-1');
 
 arrow1.addEventListener('click', function() {
@@ -39,4 +38,4 @@ var arrow2 = document.querySelector('#arrow-2');
 
 arrow2.addEventListener('click', function() {
     smoothScroll('#our-services',100);
-}); 
+});*/
