@@ -1,11 +1,13 @@
 
 @font-face{
-    font-family: opt-sans;
-    src: url(/fonts/Optiker-K.woff);
+    font-family: "opt-sans";
+    src: url(/fonts/Optiker-K.woff)format('woff');
+    src: url(/fonts/Optiker-K.ttf)format('truetype');
+
 }
 
 h1, h2, h3{
-    font-family: 'Optician Sans'
+    font-family: 'opt-sans'
 }
 
 
