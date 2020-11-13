@@ -1,4 +1,8 @@
 
+@font-face{
+    font-family: opt-sans;
+    src: url(/fonts/Optiker-K.woff);
+}
 
 h1, h2, h3{
     font-family: 'Optician Sans'
