@@ -17,18 +17,48 @@
 </head>
 
 <body class="antialiased text-gray-800">
+<!--
+    <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+          <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+          <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span>
+        </div>
+        <div class="block lg:hidden">
+          <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm lg:flex-grow">
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+              Docs
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+              Examples
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+              Blog
+            </a>
+          </div>
+          <div>
+            <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+          </div>
+        </div>
+      </nav>-->
+
 
     <!--Hero-->
-    <div style="background-image:url(/dist/assets/bg-transparent.png)"
-        class="flex place-content-around place-items-center flex-col min-h-screen w-screen bg-cover">
+    <div style="background-image:url(/dist/assets/bg-transparent.png)" class="flex place-content-around place-items-center flex-col min-h-screen w-screen bg-cover">
+
+        
 
         <div class="mt-32 p-8">
             <img src="/dist/assets/landstamp-logo-web.png" style="margin:0 auto;" class="w-64">
-            <h1 class="text-black text-center text-3xl my-5 leading-8">Land & Building Consultants</h1>
-            <p class="text-black text-center mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, at? Bg et line.
+            <h1 class="text-black text-center text-3xl my-5 leading-8">Land & Buildings Consultants</h1>
+            <p class="text-black text-center mb-10">Professional Survey Solutions. Residential, Healthcare, Offices   
             </p>
-            <p class="my-5 text-center"><a class="btn text-white px-5 py-2 rounded-2xl shadow-xl bg-green-900 hover:bg-green-800" href="#">Contact Us</a><a
-                    class="text-gray-900 underline mx-3" href="#">View our services</a></p>
+            <p class="my-5 text-center"><a class="btn text-white px-5 py-2 rounded-2xl shadow-xl bg-green-900 hover:bg-green-800" href="#contact-us">Contact Us</a><a
+                    class="text-gray-900 underline mx-3" href="#">How we can help you</a></p>
         </div>
 
         <div class="arrow">
@@ -41,10 +71,17 @@
     <div id="about-us" class="flex flex-col min-h-screen w-screen place-content-around place-items-center p-8">
         <div class="mt-32 lg:w-2/3">
             <h1 class="text-4xl">About us</h1>
-            <p class="mt-5 mb-10 text-xl">Directly experienced, capable and approachable client-side project management
-                and team leadership. A specialist resource for development and estate management projects, programmes
-                and workstreams, and traditional surveying work where internal resources are limited.</p>
-            <a class="btn text-white px-5 py-2 rounded-2xl shadow-xl bg-green-900 hover:bg-green-800" href="#">Contact Us</a>
+            <p class="mt-5 mb-10 text-2xl">People need buildings, space to live, space to work and to do things; it is our belief that buildings should contribute to wellbeing and to business and not be seen solely as a drag on resources.  Our guiding philosophy is ‘the right space, in the right place, at the right time, at the right price’.</p>
+            <p class="mt-5 mb-10 text-lg">We are a professional property consultancy with direct, hands-on, experience in the many specialisms related to the ownership and use of land and buildings, on scales both large and small.  Working predominantly on the client side, including private clients, we are capable and approachable.</p>
+            <p class="mt-5 mb-10 text-lg">For private clients and small organisations, including small charities, we offer services tailored to your specific requirements, and we can help you to define what those requirements are.</p>
+           
+            
+
+
+                
+   
+          
+            <a class="btn text-white px-5 py-2 rounded-2xl shadow-xl bg-green-900 hover:bg-green-800" href="#contact-us">Contact Us</a>
         </div>
         <div id="arrow-2" class="arrow mt-16">
             <a href="#our-services"><img src="/dist/assets/down-arrow.png" class="w-12 animate-bounce"></a>
@@ -57,28 +94,30 @@
     <div id="our-services" class="min-h-screen w-screen bg-green-900 flex flex-col text-white p-8 lg:place-content-center place-items-center">
         <div class="w-full lg:w-2/3 mb-5">
             <h3 class="text-4xl">Our services</h3>
+            <p class="pt-5 text-lg lg:w-2/3">Using our extensive hands-on experience in all aspects of ownership and operation, we assist clients in making the best use of their property assets.
+            </p>
         </div>
         <div class="flex flex-row flex-wrap place-content-around place-items-center lg:w-2/3">
             <div class="w-full lg:w-1/3 mt-10 pr-10">
                 <img src="/dist/assets/noun_City_1114563.png" class="w-16">
-                <p class="font-bold text-xl mt-2">Planning & Development</H3>
+                <p class="font-bold text-xl mt-2">Developing</H3>
                     <p class="mt-5 mb-8 text-lg">Client-side project co-ordination of all stages from inception to completion.
                     </p>
-                    <a class="bg-yellow-700 text-white px-5 py-2 rounded-2xl shadow-xl" href="#">Find out more</a>
+                    <a class="bg-yellow-700 text-white px-5 py-2 rounded-2xl shadow-xl" href="#contact-us">Contact Us</a>
 
             </div>
             <div class="w-full lg:w-1/3 mt-10 pr-10">
                 <img src="/dist/assets/noun_Briefcase_357380.png" class="w-16">
-                <p class="font-bold text-xl mt-2">Asset managment</H3>
+                <p class="font-bold text-xl mt-2">Managing</H3>
                     <p class="mt-5 mb-8 text-lg">A range of traditional surveying and asset management techniques</p>
-                    <a class="bg-yellow-700 text-white px-5 py-2 rounded-2xl shadow-xl" href="#">Find out more</a>
+                    <a class="bg-yellow-700 text-white px-5 py-2 rounded-2xl shadow-xl" href="#contact-us">Contact Us</a>
 
             </div>
             <div class="w-full lg:w-1/3 mt-10 pr-10">
                 <img src="/dist/assets/noun_Continuity_2154258.png" class="w-16">
-                <p class="font-bold text-xl mt-2">Business continuity</H3>
+                <p class="font-bold text-xl mt-2">Protecting</H3>
                     <p class="mt-5 mb-8 text-lg">Life and business critical, service resilience.</p><br>
-                    <a class="bg-yellow-700 text-white px-5 py-2 rounded-2xl shadow-xl" href="#">Find out more</a>
+                    <a class="bg-yellow-700 text-white px-5 py-2 rounded-2xl shadow-xl" href="#contact-us">Contact Us</a>
 
             </div>
         </div>
@@ -95,21 +134,24 @@
     <!--Testimonials-->
 
     <div id="testimonials" class="bg-gray-400 min-h-screen flex flex-col place-content-center p-8 lg:place-items-center">
-        <div class="w-full lg:w-2/3"><h3 class="text-4xl">Testimonials</h3></div>
-        <div class="flex flex-row flex-wrap lg:w-2/3">
-            <div class="w-full lg:w-1/2">
-                <p class="my-10 mr-10">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.”</p>
-                    <p class="font-bold">Mr. C Client</p>
-            </div>
-            <div class="w-full lg:w-1/2">
-                <p class="my-10 mr-10">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.”</p>
-                    <p class="font-bold">Ms. J Job</p>
-            </div>
-
+        <div class="w-full lg:w-2/3 pb-10"><h3 class="text-4xl">Recent projects</h3></div>
+        <div class="lg:w-2/3">
+            
            
+                <ul class="list-disc mb-10 text-lg">
+                    <li>Finalising planning applications for two extra care developments.</li>
+                    <li>Acquisition of freehold of a Luton care home.</li>
+                    <li>Research on title and site constraints for a major heritage asset.</li>
+                    <li>Advice on a change of use planning application, B1 to Sui Generis.</li>
+                    <li>Leasehold advice on a Southampton retail premises.</li>
+                    <li>Rent and lease advice for community premises.</li>
+                    <li>Residential survey work.</li>
+                </ul>
+          
+            
+            <a class="btn text-white px-5 py-2 rounded-2xl shadow-xl bg-green-900 hover:bg-green-800" href="#contact-us">Contact Us</a>
         </div>
+        
 
         <div id="arrow-4" class="arrow mt-24">
             <a href="#contact-us"><img src="/dist/assets/down-arrow.png" class="w-12 animate-bounce"></a>
@@ -124,7 +166,7 @@
         <h3 class="text-4xl">Contact Us</h3>
         <p class="my-10 lg:w-2/3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
          <p><img src="/dist/assets/noun_Email_2738540.png" class="inline-block w-8 mr-5 pb-1"> <a class="text-lg font-bold" href="mailto:info@landstamp.co.uk">info@landstamp.co.uk</a></p>         
-         <p class="mt-8"><img src="/dist/assets/noun_Phone_1778832.png" class="inline-block w-8 mr-5"> <a class="text-lg font-bold" href="mailto:info@landstamp.co.uk">01234 567 890</a></p> 
+         <p class="mt-8"><img src="/dist/assets/noun_Phone_1778832.png" class="inline-block w-8 mr-5"> <a class="text-lg font-bold" href="mailto:info@landstamp.co.uk">0208 936 7880</a></p> 
            
            
                 
