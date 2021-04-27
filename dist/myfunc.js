@@ -53,3 +53,35 @@ $(document).ready(function(){
 	    });
 	});
 });
+
+/*resp-header*/
+const btn = document.querySelector('button.mobile-menu-button');
+const menu = document.querySelector('.mobile-menu');
+
+btn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+})
+
+
+/*nav styles*/
+
+var scrolled = false;
+function addClass() {
+	var nav = document.getElementsByTagName('nav');
+	nav[0].classList.add('scrolled');
+}
+function removeClass() {
+	var nav = document.getElementsByTagName('nav');
+	nav[0].classList.remove('scrolled');
+}
+document.addEventListener('scroll', function(e) {
+  if (window.scrollY === 0) {
+  	scrolled = false;
+  	removeClass();
+  }
+  if (window.scrollY >= 300 && scrolled === false) {
+  console.log('scrolled');
+  	scrolled = true;
+  	addClass();
+  }
+});
