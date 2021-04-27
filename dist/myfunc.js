@@ -79,7 +79,7 @@ document.addEventListener('scroll', function(e) {
   	scrolled = false;
   	removeClass();
   }
-  if (window.scrollY >= 300 && scrolled === false) {
+  if (window.scrollY >= 50 && scrolled === false) {
   console.log('scrolled');
   	scrolled = true;
   	addClass();
