@@ -19,7 +19,7 @@
 <body class="antialiased text-gray-800">
 
 <!--Navbar goes here-->
-<nav class="bg-grey-100 fixed top-0 inset-x-0 p-3">
+<nav class="bg-grey-100 fixed top-0 inset-x-0 p-3 z-40">
 
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex justify-between">
@@ -149,7 +149,10 @@
 
     <div id="testimonials" class="bg-gray-400 min-h-screen flex flex-col place-content-center p-8 lg:place-items-center">
         <div class="w-full lg:w-2/3 pb-10"><h3 class="text-4xl">Recent projects</h3></div>
-        <div class="lg:w-2/3">
+        <!--inner wrapper-->
+        <div class="flex flex-row flex-wrap flex-wrap-reverse place-content-center place-items-center">
+        <!--Text-->
+        <div>
             
            
                 <ul class="list-disc mb-10 text-lg">
@@ -165,6 +168,18 @@
             
             <a class="btn text-white px-5 py-2 rounded-2xl shadow-xl bg-green-900 hover:bg-green-800" href="#contact-us">Contact Us</a>
         </div>
+        <!--images-->
+        <div id="image-wrapper" class="w-full lg:w-1/4 p-10">
+            <div class="pb-10">
+                <img src="/dist/assets/brad-centre.jpg">
+            </div>
+            <div>
+                <img src="dist/assets/brad-court02.JPG">
+            </div>
+
+        </div>
+
+    </div>
         
 
         <div id="arrow-4" class="arrow mt-24">
